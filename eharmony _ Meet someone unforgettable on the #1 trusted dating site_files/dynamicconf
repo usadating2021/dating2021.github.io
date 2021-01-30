@@ -1,0 +1,113 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	var dynamicConf = {
+		ownerId: '2086',
+		ownerUrl: 'https://www.eharmony.com',
+		brandName: 'eharmony',
+
+		facebook: {
+			appId: '465442046830375', 
+			isLoginAllowed: true, 
+			isRegistrationAllowed: true, 
+			version: 'v3.1', 
+			locale: 'en_US',
+
+			infoModal: {
+				headline: 'Facebook Login',
+
+				content: '<p>If you login or register with Facebook, you will not need a separate password for eharmony. Your eharmony profile is then linked to your Facebook login information, and you’ll use your Facebook password to login to eharmony. You’ll only need to re-enter your password if you’re not already logged in to Facebook. In this context, we assume that only you have access to your Facebook account. Please be aware that staying logged in to Facebook may mean that third parties using your device could gain access to your eharmony profile.<br>Further information about the Facebook login can also be found in our <a href="https://www.eharmony.com/privacypolicy/" target="_self">privacy policy</a>.</p>'
+			}
+		},
+
+		apple: {
+			clientId: 'prod.eharmony.www', 
+			isLoginAllowed: true, 
+			isRegistrationAllowed: false, 
+			version: '1',
+			locale: 'en_US',
+			callbackDomain: 'https://www.eharmony.com' 
+		},
+
+		orientationPermission: {
+			isEnabled: false,
+
+			checkboxText: 'I agree to <a href="/test" target="_blank">eharmony</a>processing details regarding my sexual orientation. I can revoke this agreement at any point, which, however, does not affect the legality of the processing until revocation.'
+		}
+
+				,
+				cmp: {
+					usercentricSettingsId: '',
+					abTestName: '',
+					acceptButton: 'Accept',
+					footerLink1: '<a href="/aboutus/">About us</a>',
+					footerLink2: '<a href="/privacypolicy/">Privacy Policy</a>',
+
+					layer1 : {
+						text: '<div class="headerCntThree"><p>We care about your interests</p></div><p>We use third-party website <a href="/cookiesandtracking/" target="_blank">tracking technologies</a> to provide and continually improve our services, and to display advertisements according to users&#39; interests. You agree and may revoke or change your consent at any time with effect for the future.</p>',
+						moreLinkText: 'Configure',
+					},
+
+					layer2 : {
+						text: '<div class="headerCntThree"><p>Your data, your privacy</p></div><p> When you visit a website, it may retrieve or store information from your browser, usually in the form of cookies. Mostly they are used to ensure that the website functions as expected. Usually, this information does not directly identify you. However, they can provide you with a more personalized web/app experience. For example, this information helps us to improve and design new products, enhance product safety and provide personalized content and advertising. You can choose not to accept certain types of cookies. Click on "Configure" to learn more and change our default settings.</p><p>After you have set your privacy preferences, changes can be made at any time. However, as you know for a fact that blocking certain types of cookies can lead to a compromised experience of the website and services we provide.</p>',
+						moreLinkText: 'Configure',
+					},
+
+					layer3 : {
+
+						headerText: '<div class="headerCntThree"><p>You keep control </p></div><p>We use cookies and other technologies to help you get the most out of our website and to improve our communications with you. We distinguish three categories: Essential Cookies, Functional Cookies and Marketing Cookies. To set your preferences, please click on "continue".</p>',
+						text: '<div class="headerCntFive"><p>Functional cookies</p></div><p>These technologies enable us to analyse the use of the application in order to measure and improve performance.</p><div class="headerCntFive"><p>Marketing cookies</p></div><p>These technologies are used by advertisers to serve ads that are relevant to your interests.</p><div class="headerCntFive"><p>Essential cookies</p></div><p>These technologies are required to activate the core functionality of the website.</p>',
+						moreLinkText: 'Continue',
+
+					},
+
+					layer4 : {
+
+						headerText: '<div class="headerCntThree"><p>You determine the quality of your content yourself</p></div><p> Meet your personal preference here and decide how well our content is tailored to you! With your permission, we are committed to improving and designing new products, enhancing product safety and providing personalized content and advertising.</p>',
+						text: '#!<p>Main Text optional</p>',
+						basic: 'Basic',
+						advanced: 'Advanced',
+						selectAllLinkText: 'Select all',
+						moreLinkText: 'Save selection',
+					}
+				}
+	};
